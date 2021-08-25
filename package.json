@@ -26,6 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint ./src",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
@@ -69,6 +70,9 @@
     "@storybook/react": "^6.3.0",
     "@storybook/testing-react": "^0.0.17",
     "chromatic": "^5.9.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-react": "^7.24.0",
     "react-test-render": "^1.1.2"
   }
 }

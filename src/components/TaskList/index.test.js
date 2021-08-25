@@ -16,7 +16,6 @@ it('renders pinned tasks at the start of the list', () => {
     //     { id: '6', title: 'Task 6 (pinned)', state: 'TASK_PINNED' },
     // ];
   const { container } = render(<WithPinnedTasks />);
-  console.log('Container' + container);
 
   expect(
     container.querySelector('.list-item:nth-child(1) input[value="Task 6 (pinned)"]')
